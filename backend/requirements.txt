@@ -1,0 +1,35 @@
+# Framework
+fastapi
+uvicorn
+python-multipart
+
+# LangChain Ecosystem
+langchain
+langchain-anthropic
+langchain-community
+langchain-core
+langchain-text-splitters
+langgraph
+
+# Embeddings & Vector DB
+chromadb
+langchain-chroma
+langchain-huggingface
+sentence-transformers
+
+# LLM Provider
+anthropic
+
+# Data Processing
+pydantic
+pydantic-settings
+python-dotenv
+pypdf
+
+# Utilities
+httpx
+requests
+
+# Testing
+pytest
+pytest-asyncio

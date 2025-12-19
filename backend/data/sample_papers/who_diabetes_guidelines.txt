@@ -1,0 +1,60 @@
+Title: WHO Guidelines on Diabetes Management 2023
+Authors: World Health Organization
+Source: WHO Technical Report Series
+Year: 2023
+Document ID: WHO-2023-DIABETES
+URL: https://www.who.int/publications/diabetes-2023
+
+Executive Summary:
+The World Health Organization updates its evidence-based guidelines for the management of type 2 diabetes mellitus in adults.
+
+Key Recommendations:
+
+1. Lifestyle Modifications (Strong Recommendation)
+- Dietary changes: Mediterranean or DASH diet patterns
+- Physical activity: ≥150 minutes/week of moderate-intensity exercise
+- Weight reduction: 5-10% body weight loss for overweight/obese patients
+- Evidence quality: High
+
+2. First-Line Pharmacotherapy (Strong Recommendation)
+- Metformin is recommended as initial pharmacological treatment unless contraindicated
+- Starting dose: 500 mg once or twice daily with meals
+- Target dose: 1000-2000 mg daily in divided doses
+- Contraindications: eGFR <30 mL/min/1.73m², acute metabolic acidosis, severe liver disease
+- Evidence quality: High
+
+3. Second-Line Therapy (Conditional Recommendation)
+For patients not achieving glycemic targets (HbA1c <7% or individualized target) with metformin and lifestyle:
+- SGLT2 inhibitors: Preferred in patients with heart failure or chronic kidney disease
+- GLP-1 receptor agonists: Preferred for weight reduction and cardiovascular protection
+- DPP-4 inhibitors: Alternative for patients intolerant to above
+- Sulfonylureas: Cost-effective option but higher hypoglycemia risk
+- Evidence quality: Moderate to High
+
+4. Insulin Therapy (Strong Recommendation)
+Indicated when:
+- HbA1c remains >9% despite dual oral therapy
+- Symptoms of hyperglycemia (polyuria, polydipsia, weight loss)
+- Pregnancy
+- Acute illness or surgery
+- Evidence quality: High
+
+5. Cardiovascular Risk Management (Strong Recommendation)
+- Blood pressure target: <130/80 mmHg
+- LDL cholesterol target: <100 mg/dL (2.6 mmol/L)
+- Statin therapy for patients ≥40 years with diabetes
+- Aspirin for secondary prevention
+- Evidence quality: High
+
+6. Monitoring and Follow-up
+- HbA1c every 3 months until target achieved, then every 6 months
+- Annual screening: retinopathy, nephropathy, neuropathy
+- Foot examination at each visit
+- Evidence quality: Moderate
+
+Implementation Considerations:
+- Resource-limited settings: Prioritize metformin and lifestyle interventions
+- Patient-centered approach: Individualize targets based on age, comorbidities, life expectancy
+- Shared decision-making: Discuss treatment options, including benefits and risks
+
+These guidelines reflect systematic reviews of randomized controlled trials and observational studies published through December 2022. Regular updates are planned as new evidence emerges.

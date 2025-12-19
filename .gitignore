@@ -1,0 +1,32 @@
+# Python
+.venv/
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.swp
+
+# Env files (secrets)
+.env
+.env.*
+backend/.env
+frontend/med-scholar-ai/.env.local
+frontend/med-scholar-ai/.env*
+
+# FastAPI & Python caches
+backend/.pytest_cache/
+backend/.mypy_cache/
+
+# Vector DB persistence (binary/large)
+backend/data/chroma_db/
+backend/data/chroma_db/**/*
+
+# Node/Bun
+frontend/med-scholar-ai/node_modules/
+frontend/med-scholar-ai/.vite/
+frontend/med-scholar-ai/dist/
+
+# Editor/OS
+.vscode/
+.DS_Store
+Thumbs.db

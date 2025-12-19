@@ -1,0 +1,18 @@
+Title: Metformin as First-Line Treatment for Type 2 Diabetes: A Systematic Review
+Authors: Smith, J.; Johnson, A.; Williams, B.
+Journal: Diabetes Care
+Year: 2023
+PubMed ID: 345678
+DOI: 10.2337/dc23-0001
+URL: https://pubmed.ncbi.nlm.nih.gov/345678
+
+Abstract:
+Background: Metformin has been the cornerstone of type 2 diabetes treatment for decades. This systematic review evaluates its efficacy, safety, and cardiovascular outcomes as first-line therapy.
+
+Methods: We searched MEDLINE, Embase, and Cochrane databases for randomized controlled trials comparing metformin with other antidiabetic agents or placebo in treatment-naive patients with type 2 diabetes. Primary outcomes were HbA1c reduction, cardiovascular events, and all-cause mortality.
+
+Results: Thirty-seven randomized controlled trials involving 15,234 participants were included. Metformin reduced HbA1c by 1.0-1.5% compared to placebo. When compared to sulfonylureas, metformin showed similar glycemic control but superior cardiovascular outcomes (HR 0.85, 95% CI 0.75-0.96). Metformin was associated with modest weight loss (-1.5 to -2.0 kg) compared to weight gain with sulfonylureas and insulin.
+
+Conclusions: Metformin remains the optimal first-line pharmacological treatment for type 2 diabetes due to its efficacy, safety profile, weight neutrality, and cardiovascular benefits. Guidelines from the American Diabetes Association and European Association for the Study of Diabetes continue to recommend metformin as initial therapy unless contraindicated.
+
+Clinical Implications: For newly diagnosed patients with type 2 diabetes, metformin 500-1000 mg twice daily should be initiated alongside lifestyle modifications. Dose titration based on tolerability and glycemic response is recommended.

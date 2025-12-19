@@ -1,0 +1,29 @@
+Title: Amyloid Beta and Tau Biomarkers in Early Alzheimer's Disease Detection: A Prospective Cohort Study
+Authors: Park, J.; Wilson, E.; Brown, T.; Davis, C.
+Journal: Nature Neuroscience
+Year: 2024
+PubMed ID: 789012
+DOI: 10.1038/s41593-024-0001
+URL: https://pubmed.ncbi.nlm.nih.gov/789012
+
+Abstract:
+Background: Early detection of Alzheimer's disease (AD) is critical for therapeutic intervention. Blood-based biomarkers offer a non-invasive alternative to cerebrospinal fluid analysis and neuroimaging.
+
+Objective: To evaluate the diagnostic accuracy of plasma amyloid-beta (Aβ42/Aβ40) and phosphorylated tau (p-tau181) in detecting early-stage Alzheimer's disease.
+
+Methods: Prospective cohort study of 856 cognitively normal adults aged 60-85 years, followed for 5 years. Baseline plasma biomarkers were measured using high-sensitivity immunoassays. Participants underwent annual cognitive assessments and brain MRI. AD diagnosis was confirmed using NIA-AA criteria.
+
+Results:
+- 127 participants (14.8%) developed mild cognitive impairment or AD during follow-up
+- Plasma Aβ42/Aβ40 ratio showed 85% sensitivity and 78% specificity for detecting AD pathology 3-5 years before symptom onset
+- P-tau181 levels were elevated in 89% of participants who later developed AD (AUC 0.91)
+- Combined biomarker panel (Aβ42/Aβ40 + p-tau181 + APOE4 status) achieved 92% sensitivity and 86% specificity
+
+Clinical Implications: Plasma biomarkers can identify individuals at high risk for Alzheimer's disease years before clinical symptoms appear. This enables:
+1. Earlier enrollment in clinical trials
+2. Risk stratification for preventive interventions
+3. Reduced need for invasive lumbar punctures
+
+Recommendations: Current guidelines suggest plasma biomarker screening for adults ≥65 with subjective cognitive decline or family history of AD. Positive results should be confirmed with amyloid PET or CSF analysis before initiating disease-modifying therapies.
+
+Limitations: The study population was predominantly of European ancestry. Validation in diverse populations is needed. Cost-effectiveness of widespread screening requires further evaluation.

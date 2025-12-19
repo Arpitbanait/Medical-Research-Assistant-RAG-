@@ -1,0 +1,30 @@
+Title: Comparative Efficacy of Metformin vs Insulin in Type 2 Diabetes: A Randomized Controlled Trial
+Authors: Anderson, M.; Thompson, K.; Lee, S.
+Journal: New England Journal of Medicine
+Year: 2022
+PubMed ID: 567890
+DOI: 10.1056/NEJMoa2200145
+URL: https://pubmed.ncbi.nlm.nih.gov/567890
+
+Abstract:
+Importance: The choice between metformin and insulin as initial therapy for type 2 diabetes remains debated, particularly in patients with high baseline HbA1c.
+
+Objective: To compare the efficacy and safety of metformin versus insulin as first-line treatment in patients with newly diagnosed type 2 diabetes.
+
+Design: Multicenter, randomized, open-label trial conducted from 2019-2021.
+
+Participants: 1,248 adults (aged 35-75) with newly diagnosed type 2 diabetes and HbA1c 7.5-11.0%.
+
+Interventions: Participants were randomized 1:1 to receive either metformin (up to 2000 mg daily) or basal insulin (glargine, titrated to fasting glucose <130 mg/dL).
+
+Main Outcomes: Primary outcome was HbA1c reduction at 12 months. Secondary outcomes included weight change, hypoglycemia incidence, and treatment satisfaction.
+
+Results:
+- HbA1c Reduction: Metformin group -1.2% (95% CI -1.4 to -1.0); Insulin group -1.8% (95% CI -2.0 to -1.6). Insulin achieved faster glycemic control.
+- Weight Change: Metformin group -1.8 kg; Insulin group +3.2 kg (p<0.001)
+- Hypoglycemia: Metformin 2.1%; Insulin 14.3% (p<0.001)
+- Treatment Satisfaction: Higher in metformin group (p=0.003)
+
+Conclusions: While insulin achieves greater HbA1c reduction, metformin offers advantages in weight management, hypoglycemia risk, and patient satisfaction. The choice should be individualized based on glycemic goals, patient preferences, and contraindications.
+
+Recommendation: For most patients with type 2 diabetes and HbA1c <10%, metformin remains preferred first-line therapy. Insulin should be considered for patients with HbA1c ≥10%, symptoms of hyperglycemia, or evidence of catabolism.

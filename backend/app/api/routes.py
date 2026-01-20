@@ -4,7 +4,6 @@ import time
 import logging
 from io import BytesIO
 from uuid import uuid4
-
 from app.api.schemas import QueryRequest, RAGResponse, HealthCheck
 from app.rag.graph import rag_graph
 from app.rag.nodes.retriever import get_vectorstore

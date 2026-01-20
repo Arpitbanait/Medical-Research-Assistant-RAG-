@@ -7,7 +7,7 @@ app = FastAPI(title="Medical Research RAG API", version="0.1.0")
 # CORS for frontend
 app.add_middleware(
     CORSMiddleware,
-    allow_origins=["http://localhost:8080"],
+    allow_origins=["*"],
     allow_credentials=True,
     allow_methods=["*"],
     allow_headers=["*"],

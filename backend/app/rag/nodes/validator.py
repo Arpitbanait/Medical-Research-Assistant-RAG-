@@ -1,10 +1,11 @@
 from app.rag.types import RAGState
 from app.rag.prompts.validation import VALIDATION_PROMPT
-from app.llm.anthropic_client import llm
+from app.llm.anthropic_client import get_default_llm
 
 def validator_node(state: RAGState) -> RAGState:
     """Validate query safety"""
 
+    llm = get_default_llm()
     chain = VALIDATION_PROMPT | llm
 
     result = chain.invoke({"query": state["query"]})

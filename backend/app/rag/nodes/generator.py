@@ -1,9 +1,8 @@
-from langchain_anthropic import ChatAnthropic
 from app.rag.types import RAGState
 from app.rag.prompts.generation import GENERATION_PROMPT
 from app.rag.prompts.templates import format_sources
 from app.rag.utils.citations import extract_citations
-from app.llm.anthropic_client import llm
+from app.llm.anthropic_client import get_default_llm
 
 
 def generator_node(state: RAGState) -> RAGState:
@@ -22,6 +21,7 @@ def generator_node(state: RAGState) -> RAGState:
         for i, doc in enumerate(state["documents"], 1)
     ])
 
+    llm = get_default_llm()
     chain = GENERATION_PROMPT | llm
 
     response = chain.invoke({
@@ -39,33 +39,6 @@ def generator_node(state: RAGState) -> RAGState:
 
     return {
         **state,
-        "answer": answer_text,
-        "sources": sources,
-        "citation_indices": citations
-    }
-    answer_text = response.content or ""
-
-    import re 
-
-    citations = [int(m) for m in re.findall(r"\[(\d+)\]", answer_text)]
-
-
-    sources = [
-        {
-            "id": str(i),
-            "title": doc.metadata.get("title", "Unknown"),
-            "authors": doc.metadata.get("authors", []),
-            "journal": doc.metadata.get("journal", "Unknown"),
-            "year": doc.metadata.get("year", 0),
-            "pubmedId": doc.metadata.get("pubmedId", doc.metadata.get("pubmed_id", "")),
-            "url": doc.metadata.get("url", ""),
-            "relevance_score": 0.85
-        }
-        for i, doc in enumerate(state["documents"], 1)
-    ]
-
-    return {
-        **state, 
         "answer": answer_text,
         "sources": sources,
         "citation_indices": citations

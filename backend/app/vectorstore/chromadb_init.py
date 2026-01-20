@@ -2,7 +2,7 @@
 import os
 from pathlib import Path
 from langchain_community.vectorstores import Chroma
-from app.vectorstore.embeddings import embeddings
+from app.vectorstore.embeddings import get_embeddings
 from app.config import settings
 
 
@@ -22,9 +22,11 @@ def initialize_vectorstore(persist_directory: str = None) -> Chroma:
     if persist_directory is None:
         persist_directory = get_chroma_path()
     
+    embedding_function = get_embeddings()
+
     vectorstore = Chroma(
         collection_name=settings.chroma_collection_name,
-        embedding_function=embeddings,
+        embedding_function=embedding_function,
         persist_directory=persist_directory
     )
     

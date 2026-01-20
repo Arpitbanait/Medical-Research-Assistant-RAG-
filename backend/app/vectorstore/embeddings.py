@@ -1,13 +1,14 @@
 """Embedding model initialization and utilities."""
+from functools import lru_cache
 from langchain_huggingface import HuggingFaceEmbeddings
 from huggingface_hub import login
 import os
 from app.config import settings
 
 
+@lru_cache(maxsize=1)
 def get_embeddings():
-    """Initialize and return the embedding model."""
-    # Optionally authenticate with Hugging Face if a token is present
+    """Lazily initialize the embedding model (cached)."""
     token = os.environ.get("HUGGINGFACE_HUB_TOKEN") or os.environ.get("HF_TOKEN")
     if token:
         try:
@@ -18,10 +19,6 @@ def get_embeddings():
 
     return HuggingFaceEmbeddings(
         model_name=settings.embedding_model,
-        model_kwargs={'device': 'cpu'},  # Use 'cuda' for GPU
-        encode_kwargs={'normalize_embeddings': True}
+        model_kwargs={"device": "cpu"},
+        encode_kwargs={"normalize_embeddings": True},
     )
-
-
-# Global embeddings instance
-embeddings = get_embeddings()

@@ -1,6 +1,7 @@
 # Framework
 fastapi
 uvicorn
+gunicorn
 python-multipart
 
 # LangChain Ecosystem

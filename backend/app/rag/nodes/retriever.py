@@ -4,11 +4,10 @@ from app.config import settings
 from app.vectorstore.embeddings import get_embeddings
 import os
 
-# Get absolute path relative to backend root (4 levels up from retriever.py in app/rag/nodes/)
+
 BACKEND_ROOT = os.path.dirname(os.path.dirname(os.path.dirname(os.path.dirname(os.path.abspath(__file__)))))
 chroma_path = os.path.join(BACKEND_ROOT, settings.chroma_db_path)
 
-# Lazy load vectorstore to ensure embeddings are initialized
 _vectorstore = None
 
 def get_vectorstore():

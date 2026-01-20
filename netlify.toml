@@ -1,0 +1,10 @@
+[build]
+  base = "frontend/med-scholar-ai"
+  command = "npm ci && npm run build"
+  publish = "dist"
+
+# Single Page App redirect so client-side routes work
+[[redirects]]
+  from = "/*"
+  to = "/index.html"
+  status = 200
